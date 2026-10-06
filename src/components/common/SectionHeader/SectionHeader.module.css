@@ -1,0 +1,41 @@
+.header {
+  max-width: 640px;
+  margin-bottom: 44px;
+}
+
+.tag {
+  color: var(--color-gold-deep);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.title {
+  font-size: clamp(1.8rem, 3.4vw, 2.5rem);
+  margin-top: 6px;
+  color: var(--color-gold);
+}
+
+.description {
+  margin-top: 12px;
+  color: var(--color-ink-soft);
+  font-size: 1.02rem;
+}
+
+/* Inverted colours for dark backgrounds */
+.onDark .tag {
+  color: var(--color-gold);
+}
+
+.onDark .title {
+  color: #fff;
+}
+
+.onDark .description {
+  color: var(--color-on-dark-muted);
+}
+
+@media (max-width: 760px) {
+  .header {
+    margin-bottom: 28px;
+  }
+}

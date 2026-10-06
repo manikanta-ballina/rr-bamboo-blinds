@@ -1,0 +1,21 @@
+.card {
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  border: 1px solid var(--color-line);
+  background: var(--color-cream-2);
+}
+
+.meta {
+  padding: 13px 16px;
+}
+
+.title {
+  font-size: 0.95rem;
+}
+
+.sub {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--color-ink-soft);
+  margin-top: 2px;
+}

@@ -1,0 +1,29 @@
+.float {
+  position: fixed;
+  right: 20px;
+  bottom: calc(20px + env(safe-area-inset-bottom, 0px));
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  background: var(--color-whatsapp);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 22px -6px rgba(0, 0, 0, 0.4);
+  z-index: var(--z-float);
+  transition: transform 0.2s;
+}
+
+.float:hover {
+  transform: scale(1.08);
+}
+
+@media (max-width: 600px) {
+  .float {
+    width: 52px;
+    height: 52px;
+    right: 16px;
+    bottom: calc(16px + env(safe-area-inset-bottom, 0px));
+  }
+}

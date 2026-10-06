@@ -1,0 +1,80 @@
+export const REVIEWS = [
+  {
+    id: 1,
+    name: 'Ramesh K.',
+    stars: 5,
+    text: 'Neat installation and the blinds cut the afternoon heat noticeably. Good value for the price.',
+  },
+  {
+    id: 2,
+    name: 'Lakshmi P.',
+    stars: 5,
+    text: 'Loved the natural bamboo finish — matches our living room perfectly. Quick delivery too.',
+  },
+  {
+    id: 3,
+    name: 'Suresh V.',
+    stars: 4,
+    text: 'Sturdy build and easy to operate. Would recommend for anyone in a hot area.',
+  },
+  {
+    id: 4,
+    name: 'Padma R.',
+    stars: 5,
+    text: 'The two-sheet blind kept our balcony completely dry through the monsoon. Very happy with it.',
+  },
+  {
+    id: 5,
+    name: 'Kiran Babu',
+    stars: 5,
+    text: 'Fitting team was neat and finished the whole flat in half a day. Blinds look premium.',
+  },
+  {
+    id: 6,
+    name: 'Anitha S.',
+    stars: 4,
+    text: "Good dust protection on our roadside shop. Colours haven't faded even after months in the sun.",
+  },
+  {
+    id: 7,
+    name: 'Venkatesh M.',
+    stars: 5,
+    text: 'Exactly what we needed for the terrace — blocks glare but still feels open and airy.',
+  },
+  {
+    id: 8,
+    name: 'Divya N.',
+    stars: 5,
+    text: 'Reasonably priced and the bamboo smell fades in a day or two. Looks great in the study.',
+  },
+  {
+    id: 9,
+    name: 'Srinivas Rao',
+    stars: 4,
+    text: 'Solid stitching on the multi-layer blind. Installation was quick and the team explained the upkeep well.',
+  },
+  {
+    id: 10,
+    name: 'Haritha K.',
+    stars: 5,
+    text: 'Our balcony gets full afternoon sun and this has made a real difference indoors.',
+  },
+  {
+    id: 11,
+    name: 'Naveen Kumar',
+    stars: 5,
+    text: 'Ordered for our office reception — clean look and much less glare on the screens now.',
+  },
+  {
+    id: 12,
+    name: 'Swathi P.',
+    stars: 4,
+    text: 'Good quality for the price. Would have liked a couple more colour options but overall happy.',
+  },
+  {
+    id: 13,
+    name: 'Ravi Teja',
+    stars: 5,
+    text: "Privacy blind for our terrace works perfectly — can't see in from the road at all now.",
+  },
+];

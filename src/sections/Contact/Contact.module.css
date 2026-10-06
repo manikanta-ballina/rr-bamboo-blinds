@@ -1,0 +1,111 @@
+.section {
+  background: var(--color-green-deep);
+  color: var(--color-on-dark);
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 200px;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.phone {
+  font-family: var(--font-display);
+  font-size: clamp(1.9rem, 4.5vw, 2.7rem);
+  color: #fff;
+}
+
+.phoneSub {
+  margin-top: 8px;
+  color: var(--color-on-dark-muted);
+  font-size: 0.95rem;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 28px;
+  max-width: 380px;
+}
+
+/* Info card */
+.card {
+  background: rgba(15, 28, 18, 0.62);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: var(--radius-lg);
+  padding: 30px;
+  position: relative;
+  z-index: 2;
+}
+
+.cardTitle {
+  color: #fff;
+  font-size: 1.2rem;
+  margin-bottom: 14px;
+}
+
+.cardList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  font-size: 0.92rem;
+  color: var(--color-on-dark-muted);
+}
+
+.cardList b {
+  color: #fff;
+  font-weight: 500;
+}
+
+/* Decorative */
+.blindPhoto {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 340px;
+  max-width: 44%;
+  height: auto;
+  object-fit: contain;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.65;
+}
+
+@media (max-width: 800px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 700px) {
+  .section {
+    padding-bottom: 90px;
+  }
+
+  .blindPhoto {
+    width: 250px;
+    max-width: 64%;
+    opacity: 0.8;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    padding: 22px;
+  }
+}
